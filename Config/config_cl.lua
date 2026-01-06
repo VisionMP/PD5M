@@ -22,8 +22,8 @@ ActivateDeleteMarkers = true -- activates Car Impound / Deletion Markers
 ActivateTPMarkers = true -- activates Teleportation Markers (alternative way to use the tp-command only in stations)
 
 -- service variables
-TowTruckDrivers = {"cs_floyd", "mp_f_bennymech_01", "mp_m_waremech_01", "s_m_m_autoshop_02", "s_m_m_dockwork_01", "s_m_m_gardener_01", "s_m_y_construct_02", "s_m_y_garbage", "s_m_y_winclean_01", "s_m_y_xmech_01"}
-CoronerDrivers = {"csb_cop", "csb_prolsec", "s_f_y_cop_01", "s_f_y_ranger_01", "s_f_y_sheriff_01", "s_f_y_scrubs_01", "s_m_y_autopsy_01", "s_m_y_cop_01", "s_m_y_hwaycop_01", "s_m_y_ranger_01", "s_m_y_sheriff_01"}
+TowTruckDrivers = {"s_m_y_xmech_01"}
+CoronerDrivers = {"csb_cop"}
 CoronerVehicles = {"police2"}
 
 -- Marker-variables
@@ -533,4 +533,5 @@ var_tp_rotate = false
 var_tp_textdict = nil
 var_tp_textname = nil
 var_tp_drawonent = false
+
 
