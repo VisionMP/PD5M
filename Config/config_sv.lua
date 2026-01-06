@@ -5,8 +5,8 @@ AmbientEventTriggerChance = 10 -- Chance that an ambient event triggers in a sin
 
 -- ped creation variables
 -- -- info: the chances below are given in percent. So a variable of 1.50 stands for 1.5%. Please do only use variables with two decimal places between 0.00 and 100.00.
-PedDruggedChance = 0.50 -- Chance that the ped is drugged (standard: 0.50)
-PedDrunkChance = 4.00 -- Chance that the ped is drunk (standard: 4.00)
+PedDruggedChance = 3.50 -- Chance that the ped is drugged (standard: 0.50)
+PedDrunkChance = 7.00 -- Chance that the ped is drunk (standard: 4.00)
 PedWantedChance = 1.50 -- Chance that the ped is wanted (standard: 1.50)
 PedNoIDChance = 1.00 -- Chance that the ped has no ID (standard: 1.00)
 PedNoDriverLicenceChance = 4.00 -- Chance that the ped has no drivers licence (standard: 4.00)
@@ -48,13 +48,13 @@ PedHideIDDrunkModifier = -0.10 -- chance modifier to hide the ID if the ped is d
 PedFleeInstantWantedModifier = 49.00 -- chance modifier for the ped to flee instantly if they are wanted (standard: +49.00)
 PedFleeInstantIllegalItemModifier = 4.00 -- chance modifier for the ped to flee instantly if they got an illegal item (standard: +4.00)
 PedFleeInstantIllegalWeaponModifier = 9.00 -- chance modifier for the ped to flee instantly if they got an illegal weapon (standard: +9.00)
-PedFleeInstantDruggedModifier = 49.00  -- chance modifier for the ped to flee instantly if they are drugged (standard: +49.00)
+PedFleeInstantDruggedModifier = 29.00  -- chance modifier for the ped to flee instantly if they are drugged (standard: +49.00)
 PedFleeInstantDrunkModifier = 19.00 -- chance modifier for the ped to flee instantly if they are drunk (standard: +19.00)
 
 PedFightWantedModifier = 1.50 -- chance modifier for the ped to fight instead of fleeing if they are wanted (standard: +1.50)
 PedFightIllegalItemModifier = 0.50 -- chance modifier for the ped to fight instead of fleeing if they got an illegal item (standard: +0.50)
-PedFightIllegalWeaponModifier = 29.50 -- chance modifier for the ped to fight instead of fleeing if they got an illegal weapon (standard: +29.50)
-PedFightDruggedModifier = 39.50 -- chance modifier for the ped to fight instead of fleeing if they are drugged (standard: +39.50)
+PedFightIllegalWeaponModifier = 19.50 -- chance modifier for the ped to fight instead of fleeing if they got an illegal weapon (standard: +29.50)
+PedFightDruggedModifier = 19.50 -- chance modifier for the ped to fight instead of fleeing if they are drugged (standard: +39.50)
 PedFightDrunkModifier = 9.50 -- chance modifier for the ped to fight instead of fleeing if they are drunk (standard: +9.50)
 
 -- Vehicle creation variables
@@ -64,3 +64,4 @@ VehIllegalItemChance = 5.00 -- chance that an illegal item is in the car (standa
 
 -- general variables
 ActivateTPfunction = true -- activates the /tp-function.
+
